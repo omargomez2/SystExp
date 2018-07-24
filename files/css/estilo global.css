@@ -1,0 +1,121 @@
+body{ 
+	font-family:arial;
+	background:url(../img/f2.jpg)no-repeat,rgba(0, 0, 0, 0.1);
+	background-size: 100% 100%;
+	background-attachment: fixed;	
+}
+
+
+
+#contenedor{
+	/*border:1px dotted grey;*/
+	width:80%;
+	margin:auto;
+	padding:10px;
+}
+
+
+
+#acceso nav ul li{
+	text-align:left;
+}
+
+
+/*Quita los espacios existentes de las etiquetas*/
+h1,h2,h3,h4,h5,h6{
+margin:0px;
+padding:0px; 
+}
+
+/*formato en listas no ordenadas*/
+#Mlateral ul{
+	list-style-type:none;
+	padding:0px;
+	margin:10px;
+	text-align:center;
+}
+
+/*formato de lista li contenidos en ul y que a su vez pertenecen a nav*/
+#Mlateral nav ul li{
+	float:left;
+	padding:10px;
+	margin:4px;
+	border-right:1px dashed grey;
+	text-align:center;
+	transition:all 1s;
+}
+
+#Mlateral nav ul li:hover{
+	background:rgba(0, 28, 0, 0.6);
+}
+
+#Mlateral nav ul li a{
+text-decoration:none;	/*elimina subrayado de enlace*/
+color:blue;
+text-align:center;
+}	
+
+#logo{
+	float:left;
+	width:21%;
+	height:15%;	
+	background:url(../img/logo3.jpg);
+	background-size:100% 100%;
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+#eslogan{
+	float:left;
+	width:100%;
+}
+
+#acceso{
+	float:right;
+	width:55%;
+	list-style-type:none;
+	text-decoration:none;	/*elimina subrayado de enlace*/
+	text-align:right;
+}
+#acceso2{
+	float:left;
+	width:45%;
+	list-style-type:none;
+	text-decoration:none;	/*elimina subrayado de enlace*/
+	text-align:right;
+}
+
+#wosslider{
+	float:right;
+	width:50%;
+	height:40%;
+	list-style-type:none;
+	text-decoration:none;	/*elimina subrayado de enlace*/
+	
+}
+
+.sinSub{text-decoration:none;}
+
+.sinSub:hover{
+	background:rgba(0, 28, 0, 0.6);
+	transition:all 1s;
+}
+
+.encabezado { 
+	/*text-shadow: -4px 8px 10px dimgrey; 
+    font-size: 300%;
+	 background-color: #3a50d9;*/
+  color: white;
+  font: italic bold 45px Georgia, Serif;
+  text-shadow: -4px 3px 0 gray, -14px 7px 0 #0a0e27;
+}
+
+.encabezado1{
+   
+   color: white;
+   text-shadow: 1px 1px 2px gray, 0 0 1em #0a0e27, 0 0 0.2em #0a0e27;
+   font: italic bold 2.1em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", 
+   serif;
+}
+

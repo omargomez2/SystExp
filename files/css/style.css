@@ -1,0 +1,496 @@
+body {
+			font: 100% Verdana, Arial, Helvetica, sans-serif;
+			font-size:small;
+			background-color:#EEEEEE;
+			margin: 0;
+			padding: 0;
+			/*text-align: center;*/
+			color: #000000;	
+			background-image:url('../images/bg_13.jpg');
+			/*background-position: top center;*/
+			/*background-repeat: repeat-y;*/
+			background-repeat:repeat;				
+		}
+
+
+#mainLogin { 
+	width: 800px;
+	height:300px;
+	background: #DDDDDD; 
+	margin: 5px auto 5px auto;
+	padding: 5px 5px 5px 5px;
+	border:#FFFFFF 1px solid;
+	position: relative;
+	/*padding: 0 10px;*/ 
+	}
+		
+#loginLeft { 
+	width: 400px;
+	height:280px;
+	background-color:#FFFFFF;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	border:#333333 1px solid;
+	float: left;
+	/*padding: 0 10px;*/ 
+	}
+
+#loginRight { 
+	width: 350px;
+	height:280px;
+	background-color:#FFFFCC;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	border:#333333 1px solid;
+	float: left;
+	/*padding: 0 10px;*/ 
+	}
+			
+#masterContainer { 
+				width: 1000px;
+				background: #FFFFFF;
+				margin: 0 auto;
+				/*margin: 0 auto; */
+				border: 1px solid #000000;
+				text-align: left;
+	}
+
+#header { 
+	background: #DDDDDD; 
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	border:#333333 1px solid;
+	/*padding: 0 10px;*/ 
+	}
+
+#subContainerOne { 
+				margin: 5px 5px 5px 5px;
+				padding: 5px 5px 5px 5px;
+				border:#333333 1px solid; 
+				text-align: left;
+	}
+
+#subHeader { 
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	border:#EEEEEE 1px solid; 
+	}
+
+#titleLeft {
+		margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;
+		border:#AAAAAA 1px solid;
+		width: 150px;
+		float: left;
+		/*padding: 15px 0; */ /* top and bottom padding create visual space within this div */
+		/*height: 100px;*/
+		/*position: relative;*/
+	}
+
+#titleCenter {
+		margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;
+		border:#AAAAAA 1px solid;
+		width: 300px;
+		float:left;
+	}
+
+#titleRight {
+		margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;
+		border:#AAAAAA 1px solid;
+		width: 300px;
+		float: right;
+		
+		/* since this element is floated, a width must be given */
+		/*padding: 15px 0; */ /* top and bottom padding create visual space within this div */
+		/*height: 100px;*/
+	}
+
+#subContainerTwo { 
+				/* margin: 5px 5px 5px 5px; */
+				/* padding: 5px 5px 5px 5px; */
+				border:#EEEEEE 1px solid;
+				/*margin: 0; */
+				text-align: left;
+				/*overflow:hidden;*/
+	}
+
+#leftBar {
+		margin: 0px 3px 0px 3px;
+		padding: 5px 5px 5px 5px;
+		border:#DDDDDD 1px solid;
+		width: 150px; /* since this element is floated, a width must be given */
+		height:550px;
+		background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+		float: left;
+		/*padding: 15px 0;*/  /* top and bottom padding create visual space within this div */
+		/*position: relative;*/
+}
+
+.opciones {
+		margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;
+		border:#AAAAAA 1px solid;
+		width: 120px;
+		height:150px;
+		
+}
+
+#workArea {
+		/*margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;*/
+		border:#AAAAAA 1px solid;
+		width: 805px;
+		height:555px;
+		float:left;
+		/*overflow:auto;*/
+		/*margin: 0 3px 0 3px;*/  /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
+	
+		}
+
+#instrucciones {
+		margin: 1px 1px 1px 1px;
+		padding: 3px 3px 3px 10px;
+		border:#000 1px solid;
+		width: 788px;
+		height: 300px;
+		background-color:#FFFFCC;
+		overflow:auto;
+		position:absolute;
+		
+		}
+
+#encabezadoUno {
+		/*margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;*/
+		border:#EEEEEE 1px solid;
+		}
+
+#contenidoUno {
+		margin: 1px 1px 3px 1px;
+		padding: 10px 5px 5px 15px;
+		border:#333333 1px solid;
+		height:243px;		
+		overflow:auto;
+		}
+
+#subcontenidoUno {
+		/*margin: 5px 5px 5px 5px;*/
+		padding: 3px 1px 1px 3px;
+		border:#EEEEEE 1px solid;	
+		width: 360px;
+		height:235px;
+		float: left;
+		overflow:auto;
+		}
+
+#subcontenidoDos {
+		margin: 0px 1px 0px 5px;
+		padding: 2px 2px 1px 2px;
+	 	/*width: 300px;*/
+		height:216px;
+		border:#EEEEEE 1px solid;	
+		float: left;
+		}
+
+#subcontenidoTres {
+		/*margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;*/
+		border:#EEEEEE 1px solid;	
+		width: 480px;
+		height:240px;
+		float: left;
+		overflow:auto;
+		}
+
+#subcontenidoCuatro {
+		margin: 0px 0px 0px 2px;
+		padding: 0px 0px 0px 5px;
+		border:#EEEEEE 1px solid;	
+		width: 290px;
+		height:240px;
+		float: left;
+		overflow:auto;
+		}
+
+#subcontenidoCinco {
+		/*margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;*/
+		border:#EEEEEE 1px solid;	
+		width: 380px;
+		height:240px;
+		float: left;
+		overflow:auto;
+		}
+
+#subcontenidoCincoa {
+		/*margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;*/
+		border:#EEEEEE 1px solid;	
+		width: 315px;
+		height:240px;
+		float: left;
+		overflow:auto;
+		}
+		
+#subcontenidoSeis {
+		margin: 0px 1px 0px 1px;
+		padding: 0px 2px 0px 2px;
+		border:#EEEEEE 1px solid;	
+		width: 200px;
+		height:240px;
+		float: left;
+		overflow:auto;
+		}
+
+#subcontenidoSeisa {
+		margin: 0px 2px 0px 2px;
+		/*padding: 5px 5px 5px 5px;*/
+		border:#EEEEEE 1px solid;	
+		width: 140px;
+		height:240px;
+		float: left;
+		overflow:auto;
+		}
+		
+#subcontenidoSeisb {
+		margin: 0px 1px 0px 1px;
+		padding: 3px 2px 2px 3px;
+		border:#EEEEEE 1px solid;	
+		width: 130px;
+		height:235px;
+		float: left;
+		overflow:auto;
+		}
+		
+#subcontenidoSiete {
+		/*margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;*/
+		border:#EEEEEE 1px solid;	
+		width: 150px;
+		height:235px;
+		float: left;
+		overflow:auto;
+		}
+
+#subcontenidoOcho {
+		margin: 0px 3px 0px 3px;
+		/*padding: 5px 5px 5px 5px;*/
+		border:#EEEEEE 1px solid;
+		width: 270px;
+		height:235px;	
+		float: left;
+}
+
+#subcontenidoNueve {
+		/*margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;*/
+		border:#EEEEEE 1px solid;
+		width: 770px;
+		height:230px;	
+		float: left;
+}
+
+#subcontenidoDiez {
+		/*margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;*/
+		border:#EEEEEE 1px solid;
+		width: 770px;
+		height:230px;	
+		float: left;
+}
+
+#encabezadoDos {
+		/*margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;*/
+		border:#EEEEEE 1px solid;
+		}
+
+#contenidoDos {
+		margin: 3px 1px 1px 1px;
+		padding: 10px 5px 5px 15px;
+		border:#333333 1px solid;
+		height:243px;
+		overflow:auto;
+		/* overflow-y: scroll;
+		scrollbar-arrow-color:blue; 
+		scrollbar-face-color: #e7e7e7; 
+		scrollbar-3dlight-color: #a0a0a0; 
+		scrollbar-darkshadow-color:#888888; */
+		}
+
+#piePagina {
+		margin: 2px 1px 1px 1px;
+		padding: 1px 1px 1px 1px;
+		border:#333333 1px solid;
+		height:23px;
+		overflow:auto;
+		}
+
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+div.formulario button
+{
+color:#000000;
+background-color:#CCCCCC;
+border: 1px outset #000000;
+margin: 2px 2px 2px 2px;
+}
+
+div.formulario input
+{
+color:#333333;
+background:#EEEEEE;
+border: 1px solid #333333;
+float:left;
+width:180px;
+}
+
+div.formulario select
+{
+color:#333333;
+background:#EEEEEE;
+border: 1px solid #333333;
+float:left;
+width:180px;
+}
+
+div.formulario label {
+display: block;
+text-align:right;
+float:left;
+width:120px;
+
+/*border-top:1px solid #262626;*/
+/*border-bottom:1px solid #161712;*/
+/*padding:10px 0 10px 0;*/
+}
+
+div.formulario textarea {
+display: block;
+/*text-align:right;*/
+float:left;
+width:150px;
+
+
+/*border-top:1px solid #262626;*/
+/*border-bottom:1px solid #161712;*/
+/*padding:10px 0 10px 0;*/
+}
+
+div.formulario label span {
+display: block;
+float:left;
+width:300px;
+text-align:right;
+padding:5px 20px 0 0;
+}
+
+
+#sidebarleft1 {
+	/*float: left; */
+	width: 50px; /* since this element is floated, a width must be given */
+	background-color:#FFCC00; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div */
+	/*height: 100px;*/
+	position: relative;
+}
+
+#sidebarleft2 {
+	float: left;
+	width: 150px; /* since this element is floated, a width must be given */
+	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 15px 0; /* top and bottom padding create visual space within this div */
+	position: relative;
+}
+
+
+.msg_list {
+			margin: 0px;
+			padding: 0px;
+			width: 383px;
+			}
+
+.msg_head {
+				padding: 5px 10px;
+				cursor: pointer;
+				position: relative;
+				background-color:#FFCCCC;
+				margin:1px;
+				}
+
+.msg_body {
+				padding: 5px 10px 15px;
+				background-color:#F4F4F8;
+				}
+
+.trigger {
+			    background-color:#33FF66;
+				border:#000 1px solid;
+				display: block;
+				width: 304px;
+				height: 26px;
+				text-indent: -999999em;
+				overflow: hidden;
+			}
+
+
+ .slide {
+		   position: relative;
+		   background-color:#FFCC00;
+		   border:#000 1px solid;
+		   width: 304px;
+		   height: 126px;
+		   overflow:hidden;
+ 		 }
+  
+ .slide .inner {
+			   position: absolute;
+			   left: 0;
+			   bottom: 0;
+			   width: 304px;
+			   height: 26px;
+			   background-color:#33FF66;
+			   border:#000 1px solid;
+  			}
+			
+.row0 {
+    background-color: #FFFFFF;
+}
+
+tr.row0:hover {
+    background-color:#FFCC66;
+}
+
+.row1 {
+    background-color:#FFFFCC;
+}
+
+tr.row1:hover {
+    background-color: #FFCC66;
+}
+
+a:link {
+	color:#666666; text-decoration:none; 
+	}
+
+a:visited {
+	color:#666666; text-decoration: none;
+	}
+
+a:active {
+	color:#666666; text-decoration: none;
+	}
+
+a:hover {
+	color:#666666; text-decoration:underline; 
+	}			
+	
+
+	
